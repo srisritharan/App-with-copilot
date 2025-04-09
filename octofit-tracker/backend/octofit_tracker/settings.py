@@ -26,7 +26,12 @@ SECRET_KEY = "django-insecure-475che+=zklhadk7_!@z=vyz$a181a*w-d@uq7n3je#=$um0z7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'humble-rotary-phone-65pvpx4vqvv34rgp-8000.app.github.dev',
+    'localhost',
+    '127.0.0.1',
+    '0.0.0.0'
+]
 
 
 # Add CODESPACE_NAME for dynamic URL generation
